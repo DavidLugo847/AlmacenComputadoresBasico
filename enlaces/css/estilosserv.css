@@ -1,0 +1,100 @@
+.splashserv{
+    width: 100%;
+    background-color: gray;
+}
+.next{
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+}
+.pp{
+    text-align: left;
+}
+body{
+    background: white;
+}
+nav{
+    float: left;
+    width: 100%;
+    background-color: #3388B6;
+    background-image: url(../imagenserv/splashserv.jpg);
+    background-size: 100%;
+    padding-top: 250px;
+    margin-top: 0px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+}
+nav ul li:not(next){
+    
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    text-shadow: 0px 1px 0px #FFF;
+    position: relative;
+}
+nav ul li a:not(next){
+    color: white;
+    display: block;
+    padding: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:10px;
+    margin:0;
+    text-decoration: none;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+nav ul a:hover{
+    color: whitesmoke;
+    background-color: #134864;
+}
+.seleccion{
+    background-color: #2375A2;
+}
+p:not(next){
+    font-family: arial;
+    font-size: 100%;
+}
+h2{
+    font-family: arial;
+    font-size: 100%;
+}
+a:not(next){
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    float: left;
+    font-size: 20px;
+    display: block;
+    padding: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    margin: 0px;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #F46E6E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: red;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: #9B3B3B;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+table{
+    width: 100%;
+    background-color: #E1E1E1;
+}

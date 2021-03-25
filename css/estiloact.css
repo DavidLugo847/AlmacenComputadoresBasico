@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.splash{
+    width: 100%;
+    background-color: gray;
+}
+body{
+    background: white;
+}
+nav{
+    float: left;
+    width: 100%;
+    background-color: #F46E6E;
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+}
+nav ul li{
+    background-color: #F46E6E;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    text-shadow: 0px 1px 0px #FFF;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:10;
+    margin:0;
+    text-decoration: none;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+nav ul a:hover{
+    color: whitesmoke;
+    background-color: #9B3B3B;
+    
+}
+p{
+    font-family: arial;
+    font-size: 100%;
+}
+h2{
+    font-family: arial;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    float: left;
+    font-size: 20px;
+    display: block;
+    padding: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    margin: 0px;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+.actbtn{
+    width: 150px;
+    height: 50px;
+    background-color: #F46E6E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.actbtn:hover{
+    color: whitesmoke;
+    background-color: #9B3B3B;
+    -webkit-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+}
+table{
+    background-color: #E1E1E1;
+}
+td{
+    width: 200px;
+    height: 20px;
+}
+input{
+    width: 100%;
+}
+div{
+    background-color:  #F46E6E;
+}
+.coco{
+    font-family: Arial;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
